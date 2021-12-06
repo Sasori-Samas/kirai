@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Kirai",
-     "engines": {
-    "node": "14.x"
   "dependencies": {
     "@k3rn31p4nic/google-translate-api": "^1.1.1",
     "@mapbox/node-pre-gyp": "^1.0.5",
