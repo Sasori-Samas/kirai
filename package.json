@@ -1,9 +1,5 @@
 {
-  "name": "open",
-  "version": "1.0.0",
-    "engines": {
-    "node": "14.x"
-  }
+
   "main": "index.js",
   "author": "Kirai",
   "dependencies": {
@@ -48,6 +44,22 @@
     "ytdl-core": "^4.8.2"
   },
   "devDependencies": {},
+  "name": "Kirai Crowbot",
+  "description": "Angeles Protect",
+  "version": "1.0.0",
+    "engines": {
+    "node": "16.x"
+     },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+   "scripts": {
+      "start": "node index.js"
+    },
+  "author": "Kirai",
+  "license": "ISC"
+}
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
