@@ -1,6 +1,6 @@
 {
-  {
-  "name": "music-bot",
+ 
+  "name": "Crowbot",
   "main": "index.js",
   "author": "Kirai",
   "version": "1.0.0",
