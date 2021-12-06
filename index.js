@@ -1,7 +1,6 @@
 
 const discord = require('discord.js');
 require('discord-reply'); 
-const mySecret = process.env['token']
 const
       reply = require('discord-reply'),
       config = require("./config.json"),
