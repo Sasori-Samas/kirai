@@ -1,49 +1,45 @@
 {
 
     "general": { 
-        "yes": "<:yes:845285875466371073>",
-        "no": "<:no:845285837259931697>",
-        "warning": "<:Warning:845283468715491348>",
-        "warning2": "<a:WarningRed:849102635382079580>",
-        "on": "<:On:849399957474771015>",
-        "off": "<:Off:845266623120408596>",
-        "doc": "<:doc:845281719694262292>",
-        "parametres": "<:Parametres:845266635958648843>",
-        "members": "<:members:845282697441050644>",
-        "moderation": "<a:emoji_6:845266644640858122>",
-        "administration": "<:administration:845324441898582016>",
-        "server": "<:server:845283397920489542>",
-        "github": "<:github:845325036931645460>",
-        "developper": "<:Developper:845284029237821490>",
-        "folder": "<:folder:845284293159944262>",
-        "home": "<:home:845283367183843438>",
-        "channel": "<:channel:845282562216558642>",
-        "lockedchannel": "<:SalonLock:845266609408442438>",
-        "description": "<:description:845634873024315412>"
+        "yes": "<a:yes3:917217694468694066>",
+        "no": "<a:b_no:917217697408901131>",
+        "warning": "<a:warn:917217700529467433>",
+        "warning2": "<a:Warning:917217705059295272>",
+        "on": "<:IconCheckEnabled:917217708905476126>",
+        "off": "<:off:917217711807922176>",
+        "doc": "<:DiscordHat:917217714769100800>",
+        "parametres": "<:parametre:917217718107799552>",
+        "members": "<:membre:917219640390848573>",
+        "moderation": "<:ltAdministration:917216137471725629>",
+        "administration": "<:admin:917216134560899103>",
+        "server": "<:ServerBadgePartner:917217720884420628>",
+        "github": "<:ltGitHub:917217724105621576>",
+        "developper": "<:S_Developper:917217726995505183>",
+        "folder": "📂",
+        "home": "🏘️",
+        "channel": "<:channel:917217729470160937>",
+        "lockedchannel": "<:bluelock:917217732699766895>",
+        "description": "<:Description:917217738345300029>"
     },
          "voice": { 
-         "unmuted": "<:unmuted:845282672145072169>",
-         "muted": "<:muted:845319352152490055>",
-         "undeafened": "<:undeafened:845282599085015100>",
-         "deafened": "<:deafened:845282549147893860>",
-          "voice": "<:voice:845282579048824872>"
+         "unmuted": "<:blueunmuted:917217741453287488>",
+         "muted": "<:blueunmuted:917217741453287488>",
+         "undeafened": "<:blueundeafened:917217747761500231>",
+         "deafened": "<:ltDeafenServer:917217750546513921>",
+          "voice": "<:voice:917217753847439371>"
     },
         "state": { 
-        "online": "<:online:845266651196555294>",
-        "dnd": "<:dnd:845281727735136286>",
-        "idle": "<:idle:845281728729055242>",
-        "offline": "<:offline:845281721855246366>"
+        "online": "<:Online:917217756821225503>",
+        "dnd": "<:dnd:917217762504499211>",
+        "idle": "<:IconStatusIdle:917217765872513057>",
+        "offline": "<:Offline:917217759723675680>"
 },
     "fun": { 
-    "gun": "<a:gun:849622407533821972>",
-    "coin": "<a:coin:845266622120722442>",
-    "boost": "<a:Boost:845281742809858048>",
-    "bot": "<a:gun1:845266667310284820>",
-    "crache": "<a:cracher:845281733313560586>"
+    "gun": "<:w_arminhafof:917217768464597013>",
+    "coin": "<a:coins:917217772243664956>",
+    "boost": "<a:boost:917217775926259722>",
+    "bot": "<:bot:917217780141535252>",
+    "crache": "<a:crachedessus:917217782888816651>"
  }
 }
-
-
-
-
 

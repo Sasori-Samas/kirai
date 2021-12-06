@@ -1,4 +1,4 @@
-// --  Formule pour déclarer les variables
+
 const discord = require('discord.js');
 require('discord-reply'); 
 const
@@ -23,6 +23,18 @@ const
         ms = require("ms"),
         emojis = require("./emotes.json");
 
+           let statuses = [
+         "[+] discord.gg/angeles",
+     ]
+//${client.guilds.cache.size} serveurs
+     setInterval(() => {
+         let status = statuses[Math.floor(Math.random() * statuses.length)];
+         client.user.setActivity(status, {
+             type: "STREAMING",
+             url: "https://www.twitch.tv/amf_storm",
+             status: "idle"
+         })
+     }, 20000)
 
        client.commands = new Collection()
        console.clear()
@@ -59,6 +71,9 @@ const
          };
        });
        };
+
+
+
        loadCommands()
         
            //==============================         PING BOT    ==========================================

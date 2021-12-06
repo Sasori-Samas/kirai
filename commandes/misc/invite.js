@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
 
     let myembed = new discord.MessageEmbed()
     .setAuthor(message.author.username, message.author.avatarURL({dynamic: true}))
-    .setDescription(`> **Lien d'invitation** = \`🔌\` \n\n> **Serveur d'assistance** = \`💡\` `)
+    .setDescription(`> **Lien d'invitation** = \`🔌\` \n\n> **Serveur** = \`💡\` `)
     .setTimestamp() 
     .setFooter(client.user.username,client.user.displayAvatarURL({dynamic : true }))
     .setColor(db.color)
@@ -16,12 +16,12 @@ module.exports.run = async (client, message, args) => {
 let btn = new disbut.MessageButton()
   .setStyle('url') 
   .setLabel('🔌') 
-  .setURL('https://discord.com/api/oauth2/authorize?client_id=815382719080955924&permissions=8&redirect_uri=https%3A%2F%2Fgithub.com%2Fbigopenworld%2FLinus&response_type=code&scope=bot%20connections') //note: if you use the style "url" you must provide url using .setURL('https://example.com')
+  .setURL('https://discord.com/api/oauth2/authorize?client_id=891569073035554848&permissions=8') //note: if you use the style "url" you must provide url using .setURL('https://example.com')
 
   let button2 = new disbut.MessageButton()
   .setStyle('url') 
   .setLabel('💡') 
-  .setURL('https://discord.gg/mEBr6tzNuz') 
+  .setURL('https://discord.gg/angeles') 
 
   message.channel.send({ buttons: [btn, button2], embed: myembed },)
 }
