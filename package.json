@@ -1,6 +1,4 @@
 {
-  "main": "index.js",
-  "author": "Kirai",
   "dependencies": {
     "@k3rn31p4nic/google-translate-api": "^1.1.1",
     "@mapbox/node-pre-gyp": "^1.0.5",
@@ -42,7 +40,6 @@
     "weky": "^1.9.0",
     "ytdl-core": "^4.8.2"
   },
-  "devDependencies": {},
   
   "name": "Kirai Crowbot",
   "description": "Angeles Protect",
@@ -57,6 +54,7 @@
    "scripts": {
       "start": "node index.js"
     },
+  "devDependencies": {},
   "author": "Kirai",
   "license": "ISC"
 }
