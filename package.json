@@ -1,10 +1,10 @@
 {
   "name": "open",
   "version": "1.0.0",
-   "engines": {
-    "node": "16.x"
   "main": "index.js",
-  "author": "Apoo",
+  "author": "Kirai",
+     "engines": {
+    "node": "14.x"
   "dependencies": {
     "@k3rn31p4nic/google-translate-api": "^1.1.1",
     "@mapbox/node-pre-gyp": "^1.0.5",
