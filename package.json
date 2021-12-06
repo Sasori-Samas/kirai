@@ -1,5 +1,4 @@
 {
-
   "main": "index.js",
   "author": "Kirai",
   "dependencies": {
@@ -44,6 +43,7 @@
     "ytdl-core": "^4.8.2"
   },
   "devDependencies": {},
+  
   "name": "Kirai Crowbot",
   "description": "Angeles Protect",
   "version": "1.0.0",
@@ -60,7 +60,6 @@
   "author": "Kirai",
   "license": "ISC"
 }
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   }
 }
