@@ -1,6 +1,7 @@
 
 const discord = require('discord.js');
 require('discord-reply'); 
+const mySecret = process.env['token']
 const
       reply = require('discord-reply'),
       config = require("./config.json"),
@@ -456,4 +457,4 @@ client.on('messageDelete', function(message, channel){
      //==============================         SSNIPE    ==========================================
 
 
-client.login(config.login.token).catch(e => { console.log(`[CRITICAL ERROR]`.blue + ` Erreur rencontrée: ${e}`) });
+client.login(process.env.token).catch(e => { console.log(`[CRITICAL ERROR]`.blue + ` Erreur rencontrée: ${e}`) });
